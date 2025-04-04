@@ -1,0 +1,22 @@
+$crayola-blue:#1F75FE;
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    input{
+        padding: 8px;
+        width: 50%;
+        outline: none;
+    }
+    button{
+        background-color: $crayola-blue;
+        color: #fff;
+        outline:none;
+        border: none;
+        border-radius: 5px;
+        padding: 0px 10px;
+        cursor: pointer;
+    }
+}

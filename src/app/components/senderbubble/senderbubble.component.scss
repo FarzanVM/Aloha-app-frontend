@@ -1,0 +1,22 @@
+$bg-color:#a2fed5;
+$capri-blue:#00BFFF;
+div{
+    padding: 10px;
+    position: relative;
+    border-radius: 5px;
+    background-color: $bg-color;
+    width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    p{
+        margin: 0;
+    }
+    .label{
+        position: absolute;
+        bottom: 0;
+        right: 5px;
+        font-size: x-small;
+    }
+    fa-icon{
+        color: $capri-blue;
+    }
+}

@@ -1,0 +1,13 @@
+$lime-green:#32CD32;
+div{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid $lime-green;
+    img{
+        height: 100%;
+        width: 100%;
+        border-radius: 50%;
+        object-fit: contain;
+    }
+}
