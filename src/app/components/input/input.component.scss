@@ -1,4 +1,5 @@
 $crayola-blue:#1F75FE;
+$ghibli-blue:#0799c4;
 footer{
     position: absolute;
     bottom: 0;
@@ -11,7 +12,7 @@ footer{
         outline: none;
     }
     button{
-        background-color: $crayola-blue;
+        background-color: $ghibli-blue;
         color: #fff;
         outline:none;
         border: none;
