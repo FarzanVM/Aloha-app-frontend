@@ -1,8 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
 body{
-    margin: 0;
-    box-sizing: border-box;
+    margin: 0 !important;
+    box-sizing: border-box !important;
+    width: 100%;
     font-family: "Noto Sans";
-    padding: 0;
-    outline: auto;
+    padding: 0 !important;
+    // outline: auto;
+    // overflow: hidden;
+    
 }

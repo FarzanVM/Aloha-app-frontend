@@ -4,8 +4,37 @@ header{
     box-sizing: border-box;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     background-color: #4CBB17;
+    div{
+        display: inline-flex;
+        position: relative;
+        align-items: center;
+        img{
+            width: 30px;
+            height: 40px;
+            object-fit: contain;
+        }
+        h1{
+            font-family: "Tangerine", cursive;
+            color: #fff;
+            font-weight: bolder;
+            margin: 0;
+        }
+    }
+    .options{
+        font-size: medium;
+        align-self: flex-end;
+        cursor: pointer;
+    }
+    section{
+        position: absolute;
+        top:100%;
+        z-index: 4;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        background-color: #fff;
+        border-radius: 5px;
+    }
     input{
         width: 500px;
         padding: 10px;

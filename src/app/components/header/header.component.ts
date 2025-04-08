@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { faCircleUser, faUser } from '@fortawesome/free-solid-svg-icons';
+import { faAngleDown, faCircleUser, faUser } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
     selector: 'app-header',
@@ -11,5 +11,10 @@ import { faCircleUser, faUser } from '@fortawesome/free-solid-svg-icons';
 })
 export class HeaderComponent {
     faCircleUser = faCircleUser;
+    faAngleDown = faAngleDown;
+    isOpen:boolean=false;
+    openSettings(){
+        this.isOpen=!this.isOpen;
+    }
 
 }

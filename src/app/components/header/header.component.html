@@ -1,4 +1,18 @@
 <header>
+    <div>
+        <img src="assets/images/logos/logo.png">
+        <h1>Aloha</h1>
+    </div>
     <input type="text" placeholder="Search...">
-    <fa-icon [icon]="faCircleUser"></fa-icon>
+    <div>
+        <fa-icon [icon]="faCircleUser"></fa-icon>
+        <fa-icon [icon]="faAngleDown" class="options" (click)="openSettings()"></fa-icon>
+        @if (isOpen) {
+            <section >
+                <p>Logout</p>
+            </section>
+        }
+        
+    </div>
+    
 </header>
